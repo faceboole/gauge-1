@@ -1,10 +1,10 @@
 package util
 
 import (
-	"os"
 	"github.com/getgauge/gauge/config"
 	"github.com/getgauge/gauge/env"
 	. "gopkg.in/check.v1"
+	"os"
 )
 
 func (s *MySuite) TestSpecDirEnvVariableAllowsCommaSeparatedList(c *C) {
